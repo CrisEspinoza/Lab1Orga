@@ -14,7 +14,7 @@ int main()
     char archivoEntrada[50];
     char archivoSalida[50];
     char archivoLineasDeControl[50];
-    Informacion* info;
+    Informacion* info = (Informacion*)malloc(sizeof(Informacion)*100);  
     LineaDeControl* lineasControlDadas;
 
     do
